@@ -7,9 +7,7 @@ const Pagination = ({
   setPageSize,
   gotoPage,
 }) => {
-  const pageNumbers = Array.from({ length: totalPages }, (_, i) => {
-    return i;
-  });
+  const pageNumbers = Array.from({ length: totalPages }, (_, i) => i);
 
   return (
     <div className='d-flex w-100 gap-2 mt-3'>
@@ -35,7 +33,7 @@ const Pagination = ({
           <li className={`page-item ${currentPage === 0 ? "disabled" : ""}`}>
             <button
               className='page-link'
-              onClick={() => gotoPage(0)}
+              onClick={() => gotoPage(currentPage - 1)}
               disabled={currentPage === 0}>
               Previous
             </button>
@@ -55,7 +53,7 @@ const Pagination = ({
             }`}>
             <button
               className='page-link'
-              onClick={() => gotoPage(totalPages - 1)}
+              onClick={() => gotoPage(currentPage + 1)}
               disabled={currentPage === totalPages - 1}>
               Next
             </button>

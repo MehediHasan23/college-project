@@ -297,6 +297,20 @@
       "date": "2023-09-05",
       "userStatus": "Active",
       "ticketsAssigned": 0
+    },
+    {
+      "id": "ABCDEFGH",
+      "user": {
+        "userName": "Mehedi Hasan ",
+        "email": "hasan1123@gmail.com"
+      },
+      "employeeId": "JHGDFLOE",
+      "role": "Operator",
+      "teamName": "AUDITOR",
+      "supervisorName": "Alaen Walker",
+      "date": "2023-10-14",
+      "userStatus": "InActive",
+      "ticketsAssigned": 0
     }
   ],
   "assignTo": [

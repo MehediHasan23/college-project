@@ -1,0 +1,12 @@
+.audit_report_title,
+.data_report_title {
+  color: #10135c;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.upload_divider {
+  width: 215px;
+  margin: 0 auto;
+  border: 2px solid #c1c2ca;
+}

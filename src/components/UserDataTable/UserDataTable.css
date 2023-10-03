@@ -1,0 +1,20 @@
+.add_user_btn {
+  color: #05225f;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.user_add_icon {
+  fill: #05225f;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+.btn-edit {
+  background: none;
+  border: 0;
+  color: #084298 !important;
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight: 500;
+}

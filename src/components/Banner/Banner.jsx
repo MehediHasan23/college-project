@@ -6,7 +6,7 @@ const Banner = () => {
     <div className='container py-5 banner'>
       {/* banner heading title */}
       <div className='banner_head'>
-        <h3>Welcome To aPP Tool</h3>
+        <h3>Welcome To APP Tool</h3>
       </div>
 
       <div className='row w-100 mt-2 gap-4 gap-md-0 gap-lg-0'>
